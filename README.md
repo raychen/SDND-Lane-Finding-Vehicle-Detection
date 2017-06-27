@@ -1,6 +1,8 @@
 # Vehicle Detection and Lane Finding
 
 
+## Final Video
+[Lane finding and vehicle detection project video](https://youtu.be/Qjrnx3H-1tc)
 
 ## Vehicle Detection
 ### Training Dataset:
@@ -70,7 +72,7 @@ Because variation of lighting, shadowing and other interference. the accuracy of
 #### Histogram
 A histogram of non-zero pixels of calculated, two peaks of the histogram are seen as the most like position of lane line edges
 
-![Histogram](histogram.png)
+![Histogram](test_images/histogram.png)
 
 #### Probing Window
 apply two series of probing windows from bottom to top, to locate all the non-zero pixels in lane edge area. As the windows progressing along y-axe, its center was repeated recalculated to allow the window follows the bending or leaning lane edge.
