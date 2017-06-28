@@ -3,7 +3,14 @@
 The code and videos shown here derived from the course projects I did for [Udacity's Self-Driving Car Nanodegree](https://www.udacity.com/drive) program. Vehicle Detection and Lane Finding were originally two of the course projects required in term 1, which focus on Computer Vision and Deep Learning.
 
 ## Final Video
-The [video showing combined result of vehicle detection and lane finding](https://youtu.be/Qjrnx3H-1tc)
+
+This video shows combined result of vehicle detection and lane finding:
+
+[![Video](images/detection_video.png)](http://www.youtube.com/watch?v=Qjrnx3H-1tc) 
+
+A diagnostic video shows important intermediate steps of the whole pipeline:
+
+[![diagnostic video](images/diagnostic_video.png)](https://youtu.be/PSuLr_01EOI)
 
 For most part of the video, the bonding boxes were tracking the vehicles accurately, but there are still a few false positives at the beginning of the video. The lane finding algorithm works almost perfectly for this video.
 
