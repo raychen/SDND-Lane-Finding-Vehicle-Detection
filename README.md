@@ -41,9 +41,9 @@ The extracted feature vector has a dimension of 13872, the following picture vis
 
 
 ### Classification
-Linear SVM Classifier provided by sklearn was used, which eventually invoke libsvm
+Linear SVM Classifier provided by sklearn was used, which eventually invoke libsvm. hyper parameters are set to default value provided by sklearn.
 
-* Training accuracy:
+* Training accuracy: 1.0
 * Validation accuracy: 0.9925
 
 ### Detection
